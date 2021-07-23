@@ -149,7 +149,7 @@ module.exports = {
         secure:true,
         auth:{
           user:"nithinpj333@gmail.com",
-          pass: "949569102329"}})
+          pass: "******"}})
         try{
                 const t= await db.user.findOne({where:{email:req.body.email}})
                   const salt = await bcryptjs.genSalt(10);

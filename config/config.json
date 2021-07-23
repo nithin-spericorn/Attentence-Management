@@ -1,0 +1,29 @@
+
+{
+    "local": {
+        "database": {
+            "HOST": "localhost",
+            "USER": "root",
+            "PASSWORD": "password123",
+            "DB": "uk",
+            "dialect": "mysql"
+           
+        },
+        "SECRET":"secret",
+        "server": {
+            "host": "localhost",
+            "port": "7500"
+        },
+    
+    "smtpConfig": {
+        "port": 465,
+        "host": "smtp.gmail.com",
+        "secure":true,
+        "auth":{
+          "user":"nithinpj333@gmail.com",
+          "pass": "949569102329"
+        }
+       
+}
+}
+}
